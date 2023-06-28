@@ -7,7 +7,7 @@ import { getFirestore } from "firebase2/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCw-tJgFgGuTwDcnDe8oPHgLK8CIMKLxJA",
+  apiKey: "",
   authDomain: "serverless-fall-2022-b00909479.firebaseapp.com",
   projectId: "serverless-fall-2022-b00909479",
   storageBucket: "serverless-fall-2022-b00909479.appspot.com",
