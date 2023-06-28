@@ -18,8 +18,8 @@ def lambda_handler(event, context):
         #table = boto3.resource('dynamodb').Table('user_credentials')
         dynamodb = boto3.resource("dynamodb",
                                 region_name="us-east-1",
-                                aws_access_key_id="AKIA5GYHHADT5NZEPE45",
-                                aws_secret_access_key="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")
+                                aws_access_key_id="",
+                                aws_secret_access_key="")
         table = dynamodb.Table('user_credentials')                    
         response = table.update_item(
             Key={

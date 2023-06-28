@@ -16,8 +16,8 @@ def lambda_handler(event, context):
     # Adding external dynamodb credentials
     dynamodb = boto3.resource("dynamodb",
                             region_name="us-east-1",
-                            aws_access_key_id="AKIA5GYHHADT5NZEPE45",
-                            aws_secret_access_key="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")
+                            aws_access_key_id="",
+                            aws_secret_access_key="")
     
     #Getting both the tables from dynamodb and stroing it in table1 and table 2
     table1 = dynamodb.Table('Recipe')
